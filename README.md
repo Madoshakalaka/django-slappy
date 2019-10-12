@@ -44,9 +44,11 @@ Need an already running django site
 
 2. Include the URLconf in your project urls.py like this
 
+```
     path('slappy/', include('django_slappy.urls'))
+```
 
-3. [Create a slack app](https://api.slack.com/) and add command with url 'http://<your-server>/slappy/'
+3. [Create a slack app](https://api.slack.com/) and add command with url 'http://your-server/slappy/'
 
 4. Install to workspace. Slack will give you an OAUTH secret. Paste to your `settings.py` like
 following
