@@ -1,4 +1,6 @@
 # django-slappy
+[![PyPI version](https://badge.fury.io/py/vabbat.svg)](https://badge.fury.io/py/django-slappy)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/vabbat.svg)](https://pypi.python.org/pypi/django-slappy/)
 
 This is a django app that allows you to run python interactively in slack. It requires an
 existing server running django.
